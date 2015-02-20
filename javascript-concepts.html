@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Artwork Techniques</title>
+
+<link href="css/style1.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="modernizr-latest.js"></script>
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        //alert("Document loaded.");
+        
+        if(!Modernizr.input.autofocus)
+        {   
+            $("input[autofocus]").focus(); //helps older browsers with the autofocus
+        }
+    });
+</script>
+    
+</head> 
+<body class="page" id="top"> 
+	<header>
+	   <h1>HTML 5 Forms</h1> 
+	</header>
+	<nav id="navigation" role="navigation">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="javascript-concepts.html">Javascript Concepts</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="forms.html">html5 Forms</a></li>  
+		</ul>
+		<h2>main navigation</h2> 
+	</nav>
+
+	<div id="primaryContent">
+		<article>	
+			<h2>Javascript Concepts</h2>
+			
+			<h4>String Example</h4>
+            
+            <p id="replace">one</p>
+            <p id="string1">two</p>
+            <p id="string2">three</p>
+            <p id="string3">four</p>
+            <h4>Number Examples</h4>  
+            
+            <img id="placeholder" src="images/oil/thumbs/artwork_1.jpg">
+		
+	</div> <!-- closing primaryContent   -->
+	<footer>
+		<p>
+		&copy; Copyright  by jason zeringue
+		</p>
+	</footer>
+    <script type="application/javascript" src="javascript/coreConcepts.js"></script>
+</body>
+</html>
